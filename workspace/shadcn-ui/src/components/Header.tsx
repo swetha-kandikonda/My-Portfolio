@@ -17,11 +17,6 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             <h1 className="text-xl font-bold text-gray-900">Swetha Gayatri Kandikonda</h1>
             <span className="text-sm text-gray-600 hidden md:block">Senior Data Analyst</span>
-            <img
-              src={profileImage} // <-- CHANGE THIS LINE
-              alt="Swetha Gayatri Kandikonda"
-              className="w-12 h-12 rounded-full object-cover"
-            />
           </div>
           
           <nav className="hidden md:flex items-center space-x-6">
