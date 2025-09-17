@@ -6,6 +6,7 @@ import Education from '@/components/Education';
 import Projects from '@/components/Projects';
 import Certifications from '@/components/Certifications';
 import Contact from '@/components/Contact';
+import profileImage from '/public/profile-photo.png';
 
 export default function Index() {
   return (
@@ -20,7 +21,7 @@ export default function Index() {
             {/* Column 1: Profile Photo */}
             <div className="flex-shrink-0">
               <img
-                src="/profile-photo.png" // IMPORTANT: Replace with the path to your profile photo
+                src={profileImage} // <-- CHANGE THIS LINE
                 alt="Swetha Gayatri Kandikonda"
                 className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-xl animate-in fade-in zoom-in duration-700"
               />
