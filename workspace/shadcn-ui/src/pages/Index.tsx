@@ -20,11 +20,7 @@ export default function Index() {
             
             {/* Column 1: Profile Photo */}
             <div className="flex-shrink-0">
-              <img
-                src={profileImage} // <-- CHANGE THIS LINE
-                alt="Swetha Gayatri Kandikonda"
-                className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-xl animate-in fade-in zoom-in duration-700"
-              />
+              
             </div>
             
             {/* Column 2: Text Content */}
