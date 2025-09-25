@@ -9,10 +9,12 @@ export default function WorkExperience() {
       company: "LTIMindtree",
       period: "Jul 2022 - Jul 2024",
       achievements: [
-        "Enhanced organizational decision-making by creating comprehensive Power BI dashboards that delivered real-time performance metrics to stakeholders within 4 months",
-        "Increased actionable insights by 30% within 6 months by collaborating with cross-functional teams to define and track key performance indicators (KPIs) for data analysis",
-        "Developed and implemented automated data validation pipelines using Azure Databricks, reducing manual effort by 85% and increasing data quality by 10%",
-        "Utilized PySpark to conduct advanced data wrangling techniques, leading to a 20% increase in data accuracy and reliability for business decision-making"
+        "Saved 10\% in analyst time by building an LLM classifier using prompt engineering to identify and divert non-actionable support tickets.",
+        "Enabled timely analytics for 100GB+ datasets through data preparation, orchestrating distributed ETL pipelines with Python and PySpark on Azure Databricks.",
+        "Improved data reliability by 75\% through schema analysis using Python, by engineering a data extraction and validation framework.",
+        "Elevated query performance 18\% via data manipulation, optimizing complex SQL joins and indexing strategies within Azure Synapse Analytics for faster data retrieval.",
+        "Accelerated executive decision-making by 22\% through a custom solution design, developing automated Power BI dashboards with drill-through KPIs from various data sources.",
+        "Boosted actionable insights by 25\% through statistical analysis, applying advanced functions, data validation, and lookup formulas in Excel models to interpret business datasets."
       ],
       technologies: ["Power BI", "Azure Databricks", "PySpark", "KPI Development", "Data Validation"],
       color: "from-blue-500 to-blue-600"
@@ -22,10 +24,10 @@ export default function WorkExperience() {
       company: "LTIMindtree",
       period: "Dec 2020 - Jul 2022",
       achievements: [
-        "Developed automated workflows using Azure Logic Apps to integrate diverse applications and reduced manual intervention by 80%",
-        "Deployed Azure Function Apps to process over 1000 HTTP requests per day, resulting in a 30% increase in efficiency for customers",
-        "Utilized Azure PowerShell scripts to automate resource provisioning and configuration, resulting in a 40% reduction in deployment time for cloud infrastructure projects",
-        "Recognized as a highly motivated member of Azure Collective on Stack Overflow, contributing 773 answers and reaching 680k people"
+        "Improved customer response time by 34\% through business needs identification, implementing event-triggered workflows in Azure Logic Apps to instantly process support tickets.",
+        "Amplified data processing efficiency by 12\% via a serverless architecture, developing scalable Azure Function Apps in Python to handle over 100 daily API requests.",
+        "Cut operational costs by 7\% through quantitative analysis, identifying process inefficiencies and presenting problem-solving solutions to customers based on SQL queries.",
+        "Reduced cloud infrastructure deployment time by 40\% through infrastructure-as-code practices, automating resource provisioning and configuration management using custom Azure PowerShell scripts."
       ],
       technologies: ["Azure Logic Apps", "Azure Function Apps", "Azure PowerShell", "Cloud Infrastructure", "Stack Overflow"],
       color: "from-indigo-500 to-indigo-600"

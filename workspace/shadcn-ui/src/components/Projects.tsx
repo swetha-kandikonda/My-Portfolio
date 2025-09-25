@@ -10,8 +10,9 @@ export default function Projects() {
       period: "Jan 2025 - Present",
       description: "Deployed a loan defaulter prediction model using imbalanced dataset, eliminating 40% features through feature engineering.",
       achievements: [
-        "Conducted exploratory data analysis, imputed missing values using K-Nearest neighbors and eliminated 0.1% outliers using Sklearn",
-        "Devised ML workflows to perform categorical encoding, scaling, XGBoost model with hyperparameter tuning using Optuna"
+        "Developed a predictive model using Machine learning that classified loan defaulters with 84\% F1 score by leveraging scikit-learn.",
+        "Streamlined model performance by strategically reducing the feature space from 150 to 40, using advanced feature engineering.",
+        "Improved final model F1-score by 8\% using KNN imputation to treat missing values and statistical methods to remove outliers."
       ],
       technologies: ["Python", "XGBoost", "Scikit-learn", "KNN", "Feature Engineering", "Optuna", "EDA"],
       metrics: { features_reduced: "40%", outliers_removed: "0.1%", method: "XGBoost + Optuna" },
@@ -22,8 +23,9 @@ export default function Projects() {
       period: "Jan 2025 - Apr 2025",
       description: "Built a hybrid recommendation engine for video games, combining SVD-based collaborative filtering with content-based methods to improve results.",
       achievements: [
-        "Enhanced recommendation relevance by generating game descriptions via prompting, embedding with Sentence Transformers, and applying cosine similarity, boosting content-based recall by 15%",
-        "Evaluated model effectiveness using Precision@k, achieving ~20% precision, demonstrating measurable potential to increase user engagement"
+        "Developed a hybrid model to solve the cold-start problem, boosting recommendation coverage for new items in the catalog to 90\%.",
+        "Leveraged Generative AI to author enhanced product descriptions,resulting in a 50\% lift in the final Precision@k metric.",
+        "Achieved 23\% Precision@k, by implementing a weighted formula to combine user behavior and content embedding similarity scores."
       ],
       technologies: ["Python", "SVD", "Sentence Transformers", "Collaborative Filtering", "Content-Based Filtering", "Cosine Similarity"],
       metrics: { precision: "~20%", recall_boost: "15%", method: "Hybrid" },
