@@ -1,11 +1,12 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Mail, Linkedin, MapPin, Download } from 'lucide-react';
+import resumePdf from '@/assets/Swetha_Gayatri_Resume.pdf';
 
 export default function Contact() {
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Swetha_Gayatri_Resume.pdf';
+    link.href = 'Swetha_Gayatri_Resume.pdf';
     link.download = 'Swetha_Gayatri_Resume.pdf';
     document.body.appendChild(link);
     link.click();
