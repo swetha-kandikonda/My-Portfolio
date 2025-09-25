@@ -7,7 +7,7 @@ export default function WorkExperience() {
     {
       title: "Senior Data Analyst",
       company: "LTIMindtree",
-      period: "Apr 2021 - Jul 2024",
+      period: "Jul 2022 - Jul 2024",
       achievements: [
         "Enhanced organizational decision-making by creating comprehensive Power BI dashboards that delivered real-time performance metrics to stakeholders within 4 months",
         "Increased actionable insights by 30% within 6 months by collaborating with cross-functional teams to define and track key performance indicators (KPIs) for data analysis",
@@ -20,7 +20,7 @@ export default function WorkExperience() {
     {
       title: "Azure Cloud Engineer",
       company: "LTIMindtree",
-      period: "Apr 2021 - Jul 2024",
+      period: "Dec 2020 - Jul 2022",
       achievements: [
         "Developed automated workflows using Azure Logic Apps to integrate diverse applications and reduced manual intervention by 80%",
         "Deployed Azure Function Apps to process over 1000 HTTP requests per day, resulting in a 30% increase in efficiency for customers",
